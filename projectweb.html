@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confetti Test</title>
+    <link rel="stylesheet" href="css/website.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="askAI.jpg">
+    </div>
+    <div class="ChatGPTPrompt">
+        <p>Is it: duck?
+            <hr class="under_line" />
+        </p>
+    </div>
+
+    <section>
+        <table class="interactibles">
+            <tr width="100%" height="100px">
+                <td width="50%"><button id="correct"><img src="assets/check_mark.svg" alt="Check mark"></button></td>
+                <td width="50%"><button id="incorrect"><img src="assets/x.svg" alt="Incorrect"></button></td>
+            </tr>
+        </table>
+    </section>
+
+    <button onclick="popupFn()">Click Me</button>
+    <img src="assets/steve_Harvey.png" id="wrong" style="display:none;">
+
+    <script src="https://cdn.skypack.dev/canvas-confetti"></script>
+    <script type="module" src="website.js"></script>
+</body>
+
+</html>
